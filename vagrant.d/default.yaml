@@ -1,0 +1,10 @@
+:guest:
+    :box: "CentOS-7.1"
+    :box_check_update: true
+    :box_minversion: ">=v1.0.0"
+    :ram: 512
+    :cpu: 1
+
+:box:
+    :sync_folders: []
+    :roles: []

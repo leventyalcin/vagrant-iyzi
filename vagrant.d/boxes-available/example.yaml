@@ -1,0 +1,20 @@
+:guest:
+    :ram: 768
+    :cpu: 1
+
+:box:
+    :hostname: 'dev'
+    :ip: "192.168.55.55"
+    :vhosts:
+        - dev.test.com
+        - dev.example.com
+    :roles:
+        - httpd
+        - redis
+    :sync_folders:
+        - 
+            :localpath: ./test
+            :guestpath: /opt/test
+        -
+            :localpath: ./example
+            :guestpath: /opt/example
